@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>mini lab</title>
+    <link href="mini.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="verticalmenu.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript"></script>     
+</head>
+
+<body>
+	<div id="wrapper">
+        <div id="header">
+            This is in the header area
+        </div>
+        <div id="navbar">
+            <ul id="menu">
+               <li><a href="mini.html">Home</a></li>
+               <li><a href="contact.html">Contact Us</a></li>
+               <li class="rpadding">
+                  <a href="#" onmouseover="mopen('vmenu')" 
+                               onmouseout="mclosetime()">Search</a>
+                  <div id="vmenu" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                     <a href="searchS.php">By Student</a>
+                     <a href="searchC.php" class="topborder">By Course</a>
+                     <a href="searchF.php" class="topborder">By Faculty</a>
+                  </div>
+              </li>
+            </ul>
+
+        </div>
+        <div id="sidebar">
+            This is in the sidebar area
+        </div>
+        <div id="content">
+            This is the content area
+             <a href="">Link</a>
+    
+        </div>
+        <div id="footer">
+            This is in the footer area
+        </div>
+        
+	</div>
+</body>
+</html>

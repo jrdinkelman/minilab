@@ -1,0 +1,65 @@
+<!-- Student Version -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Untitled Document</title>
+    <link href="mini.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="verticalmenu.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.validate.pack.js"></script>
+    <script type="text/javascript">
+	</script>
+      
+</head>
+
+<body>
+	<div id="wrapper">
+        <div id="header">
+            This is in the header area
+        </div>
+        <div id="navbar">
+             <ul id="menu">
+               <li><a href="mini.html">Home</a></li>
+               <li><a href="contact.html">Contact Us</a></li>
+               <li><a href="search.html">Search</a></li>
+            </ul>
+
+        </div>
+        <div id="sidebar">
+            This is in the sidebar area
+        </div>
+        <div id="content">
+           <div id="contactwrapper">
+              <form method="POST" action="process.php" onsubmit="return validate(this);" id="contactform">
+                     <div>
+                        <label for="name" class="boldtxt">Name:</label>
+                        <input type="text" size="50" name="name" id="name" value=""/>
+                    </div>
+            
+                    <div>
+                        <label for="email" class="boldtxt">Email:</label>
+                        <input type="text" size="50" name="email" id="email" value="" />
+                    </div>
+            
+                    <div>
+                        <label for="subject" class="boldtxt">Subject:</label>
+                        <input type="text" size="50" name="subject" id="subject" value="" />
+                    </div>
+            
+                    <div>
+                        <label for="message" class="boldtxt">Message:</label>
+                        <textarea rows="5" cols="50" name="message" id="message"></textarea>
+                    </div>
+                    <input class="center" type="submit" name="submit" id="submit" value="Send"  />
+	           </form>
+	        </div>
+        </div>
+        <div id="footer">
+            This is in the footer area
+        </div>
+        
+	</div>
+</body>
+</html>
+
